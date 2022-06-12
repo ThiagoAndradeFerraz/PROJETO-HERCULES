@@ -1,0 +1,9 @@
+//TSORUNPG JOB 1AD40G12,'IBMUSER',NOTIFY=&SYSUID,
+//  MSGCLASS=Q,CLASS=A,MSGLEVEL=(1,1),REGION=0M,TIME=(0,7)
+//**********************************************************************
+//* OBJETIVO: EXECUTAR O PROGRAMA OLAMUNDO
+//**********************************************************************
+//STEP1     EXEC PGM=OLAMUNDO
+//STEPLIB   DD DSN=TSO.THIAGO.LOAD,DISP=SHR
+//SYSPRINT  DD SYSOUT=*
+//*

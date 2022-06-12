@@ -1,0 +1,24 @@
+      ********************************************                      00010000
+       IDENTIFICATION DIVISION.                                         00020000
+       PROGRAM-ID. OLAMUNDO.                                            00020100
+       AUTHOR. THIAGO FERRAZ                                            00021000
+       DATE-WRITTEN. 11-06-2022                                         00021100
+      *-------------------------------------------                      00021200
+      * OBJETIVO: PROGRAMA INICIAL PARA TESTAR O                        00021300
+      *           O JOB DE COMPILACAO E EXECUCAO                        00021400
+      ********************************************                      00021500
+       ENVIRONMENT DIVISION.                                            00030000
+      ********************************************                      00032000
+       DATA DIVISION.                                                   00040000
+       WORKING-STORAGE SECTION.                                         00040100
+      ********************************************                      00042000
+       PROCEDURE DIVISION.                                              00050000
+           PERFORM 01-00-INICIO.                                        00051000
+           STOP RUN.                                                    00052000
+                                                                        00060000
+       01-00-INICIO SECTION.                                            00070000
+           DISPLAY 'OLA MUNDO!'.                                        00080000
+                                                                        00081000
+       01-99-FIM.                                                       00090000
+           EXIT.                                                        00100000
+      ********************************************                      00110000
